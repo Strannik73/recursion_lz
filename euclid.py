@@ -6,10 +6,11 @@ def rty(m, n):
         else:
             n = n - m
     return n
+    
 
 
-a = int(input())
-b = int(input())
+a = int(input('введите первое число:  '))
+b = int(input('введите второе число:  '))
 
-print(rty(a, b))
+print(rty( a, b ))
 
